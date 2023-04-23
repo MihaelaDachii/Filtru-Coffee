@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: black;
+}
+
+.logo__img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 20%;
+  }
+
+  .fs-4 {
+    text-decoration-color: white;
+  }
+
+
+  .text1 h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+.text1 h4  {
+    justify-content: center;
+    text-align: center;
+    
+}
+
+  .colorh1 {
+    color: orange;
+    margin-bottom: 45px;
+    font-weight: bold;
+  }
+
+  .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.img__store {
+width: 162px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 10px;
+margin-bottom: 250px;
+}
+
+/* Imagini Iphone */
+
+
+.container_Iphone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-column_Iphone {
+  flex-basis: calc(33.33% - 10px);
+  margin-right: 10px;
+  float: left;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.image-column_Iphone1 {
+  flex-basis: calc(33.33% - 10px);
+  margin-right: 10px;
+  float: left;
+  width: 373;
+  height: 754;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text-column1 {
+  flex-basis: calc(33.33% - 10px);
+  margin-left: 10px;
+  float:left;
+  flex-direction: column;
+}
+
+.text_p1_column1 {
+  font-size: 15px;
+  font-weight:bold;
+  margin-bottom: 200px;
+  justify-content: center;
+    text-align: center;
+}
+
+
+/* What's new in Filtru 3 */
+
+.text2 h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text2 h4 {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+.img__icon {
+  width: 70px;
+  height: 70px;
+}
+
+/*Perfect your extraction*/
+
+.img__cronometru {
+  width: 230px;
+  height: 360px;
+}
+
+.img__graph {
+  width: 280px;
+  height: 320px;
+}
+
+/*Get accurate results*/
+
+.img__results {
+  width: 320px;
+  height: 320px;
+}
+
+.container_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-column {
+  flex-basis: calc(33.33% - 10px);
+  margin-right: 10px;
+  float: left;
+}
+
+.text-column {
+  flex-basis: calc(33.33% - 10px);
+  margin-left: 10px;
+  float: right;
+  flex-direction: column;
+}
+
+.display_5 {
+  font-weight: bold;
+}
+
+.text_p1_column {
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.text_p2_column {
+  font-size: 13px;
+}
+
+.text1 h2  {
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* CARDS */
+
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+
+.column_1 {
+  float:left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 18px; 
+  
+}
+
+.card_1 {
+  margin: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-color: rgb(8, 7, 7);
+  border-radius: 8%;
+  
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.text2_h2 {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.text2_p {
+  justify-content: center;
+  text-align:left;
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: white;
+}
+
+.container_2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* What others are saying */
+
+.text3 h4 {
+font-weight: bold;
+font-size: 15px;
+margin-top: 70px;
+margin-bottom: 30px;
+justify-content: center;
+text-align: center;
+}
+
+.text3 h1 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  }
+
+
+/* APP REVIEWS */
+
+.img__store1 {
+  width: 50px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  margin-bottom: 100px; 
+  margin-top: 40px;
+}
+
+.img__store2 {
+width: 152px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 10px;
+margin-bottom: 100px;
+margin-top: 40px;
+}
+
